@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9DC185C1DE6DFEE0076FAE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC185B1DE6DFEE0076FAE6 /* AppDelegate.swift */; };
+		E9DC185E1DE6DFEE0076FAE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC185D1DE6DFEE0076FAE6 /* ViewController.swift */; };
+		E9DC18611DE6DFEE0076FAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DC185F1DE6DFEE0076FAE6 /* Main.storyboard */; };
+		E9DC18631DE6DFEE0076FAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9DC18621DE6DFEE0076FAE6 /* Assets.xcassets */; };
+		E9DC18661DE6DFEE0076FAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9DC18641DE6DFEE0076FAE6 /* LaunchScreen.storyboard */; };
+		E9DC18711DE6DFEE0076FAE6 /* adns3080_camera_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18701DE6DFEE0076FAE6 /* adns3080_camera_iosTests.swift */; };
+		E9DC187C1DE6DFEE0076FAE6 /* adns3080_camera_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC187B1DE6DFEE0076FAE6 /* adns3080_camera_iosUITests.swift */; };
+		E9DC18A61DE6E7CC0076FAE6 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC188E1DE6E6AD0076FAE6 /* SocketAckEmitter.swift */; };
+		E9DC18A71DE6E7CF0076FAE6 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC188F1DE6E6AD0076FAE6 /* SocketAckManager.swift */; };
+		E9DC18A81DE6E7D20076FAE6 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18901DE6E6AD0076FAE6 /* SocketAnyEvent.swift */; };
+		E9DC18A91DE6E7D50076FAE6 /* SocketClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18911DE6E6AD0076FAE6 /* SocketClientManager.swift */; };
+		E9DC18AA1DE6E7D70076FAE6 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18921DE6E6AD0076FAE6 /* SocketEngine.swift */; };
+		E9DC18AB1DE6E7DA0076FAE6 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18931DE6E6AD0076FAE6 /* SocketEngineClient.swift */; };
+		E9DC18AC1DE6E7DD0076FAE6 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18941DE6E6AD0076FAE6 /* SocketEnginePacketType.swift */; };
+		E9DC18AD1DE6E7E00076FAE6 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18951DE6E6AD0076FAE6 /* SocketEnginePollable.swift */; };
+		E9DC18AE1DE6E7E20076FAE6 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18961DE6E6AD0076FAE6 /* SocketEngineSpec.swift */; };
+		E9DC18AF1DE6E7E50076FAE6 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18971DE6E6AD0076FAE6 /* SocketEngineWebsocket.swift */; };
+		E9DC18B01DE6E7E70076FAE6 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18981DE6E6AD0076FAE6 /* SocketEventHandler.swift */; };
+		E9DC18B11DE6E7EA0076FAE6 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18991DE6E6AD0076FAE6 /* SocketExtensions.swift */; };
+		E9DC18B21DE6E7EC0076FAE6 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC189A1DE6E6AD0076FAE6 /* SocketIOClient.swift */; };
+		E9DC18B31DE6E7EE0076FAE6 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC189B1DE6E6AD0076FAE6 /* SocketIOClientConfiguration.swift */; };
+		E9DC18B41DE6E7F10076FAE6 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC189C1DE6E6AD0076FAE6 /* SocketIOClientOption.swift */; };
+		E9DC18B51DE6E7F30076FAE6 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC189D1DE6E6AD0076FAE6 /* SocketIOClientSpec.swift */; };
+		E9DC18B61DE6E7F60076FAE6 /* SocketIOClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC189E1DE6E6AD0076FAE6 /* SocketIOClientStatus.swift */; };
+		E9DC18B71DE6E7F80076FAE6 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC189F1DE6E6AD0076FAE6 /* SocketLogger.swift */; };
+		E9DC18B81DE6E7FB0076FAE6 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18A01DE6E6AD0076FAE6 /* SocketPacket.swift */; };
+		E9DC18B91DE6E7FF0076FAE6 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18A11DE6E6AD0076FAE6 /* SocketParsable.swift */; };
+		E9DC18BA1DE6E8010076FAE6 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18A21DE6E6AD0076FAE6 /* SocketStringReader.swift */; };
+		E9DC18BB1DE6E8040076FAE6 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18A31DE6E6AD0076FAE6 /* SocketTypes.swift */; };
+		E9DC18BC1DE6E8070076FAE6 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18A41DE6E6AD0076FAE6 /* SSLSecurity.swift */; };
+		E9DC18BD1DE6E8090076FAE6 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18A51DE6E6AD0076FAE6 /* WebSocket.swift */; };
+		E9DC18D01DE730A80076FAE6 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = E9DC18621DE6DFEE0076FAE6 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9DC186D1DE6DFEE0076FAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DC18501DE6DFEE0076FAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DC18571DE6DFEE0076FAE6;
+			remoteInfo = "adns3080-camera-ios";
+		};
+		E9DC18781DE6DFEE0076FAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9DC18501DE6DFEE0076FAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9DC18571DE6DFEE0076FAE6;
+			remoteInfo = "adns3080-camera-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9DC18581DE6DFEE0076FAE6 /* adns3080-camera-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "adns3080-camera-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DC185B1DE6DFEE0076FAE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9DC185D1DE6DFEE0076FAE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9DC18601DE6DFEE0076FAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9DC18621DE6DFEE0076FAE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/Thomas/Desktop/adns3080/adns3080-camera-ios/adns3080-camera-ios/Assets.xcassets"; sourceTree = "<absolute>"; };
+		E9DC18651DE6DFEE0076FAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9DC18671DE6DFEE0076FAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DC186C1DE6DFEE0076FAE6 /* adns3080-camera-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adns3080-camera-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DC18701DE6DFEE0076FAE6 /* adns3080_camera_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adns3080_camera_iosTests.swift; sourceTree = "<group>"; };
+		E9DC18721DE6DFEE0076FAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DC18771DE6DFEE0076FAE6 /* adns3080-camera-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "adns3080-camera-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DC187B1DE6DFEE0076FAE6 /* adns3080_camera_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adns3080_camera_iosUITests.swift; sourceTree = "<group>"; };
+		E9DC187D1DE6DFEE0076FAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DC188E1DE6E6AD0076FAE6 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
+		E9DC188F1DE6E6AD0076FAE6 /* SocketAckManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		E9DC18901DE6E6AD0076FAE6 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		E9DC18911DE6E6AD0076FAE6 /* SocketClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketClientManager.swift; sourceTree = "<group>"; };
+		E9DC18921DE6E6AD0076FAE6 /* SocketEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		E9DC18931DE6E6AD0076FAE6 /* SocketEngineClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		E9DC18941DE6E6AD0076FAE6 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		E9DC18951DE6E6AD0076FAE6 /* SocketEnginePollable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketEnginePollable.swift; sourceTree = "<group>"; };
+		E9DC18961DE6E6AD0076FAE6 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketEngineSpec.swift; sourceTree = "<group>"; };
+		E9DC18971DE6E6AD0076FAE6 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		E9DC18981DE6E6AD0076FAE6 /* SocketEventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		E9DC18991DE6E6AD0076FAE6 /* SocketExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketExtensions.swift; sourceTree = "<group>"; };
+		E9DC189A1DE6E6AD0076FAE6 /* SocketIOClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		E9DC189B1DE6E6AD0076FAE6 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
+		E9DC189C1DE6E6AD0076FAE6 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOClientOption.swift; sourceTree = "<group>"; };
+		E9DC189D1DE6E6AD0076FAE6 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		E9DC189E1DE6E6AD0076FAE6 /* SocketIOClientStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketIOClientStatus.swift; sourceTree = "<group>"; };
+		E9DC189F1DE6E6AD0076FAE6 /* SocketLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		E9DC18A01DE6E6AD0076FAE6 /* SocketPacket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		E9DC18A11DE6E6AD0076FAE6 /* SocketParsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketParsable.swift; sourceTree = "<group>"; };
+		E9DC18A21DE6E6AD0076FAE6 /* SocketStringReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketStringReader.swift; sourceTree = "<group>"; };
+		E9DC18A31DE6E6AD0076FAE6 /* SocketTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		E9DC18A41DE6E6AD0076FAE6 /* SSLSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
+		E9DC18A51DE6E6AD0076FAE6 /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DC18551DE6DFEE0076FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC18691DE6DFEE0076FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC18741DE6DFEE0076FAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9DC184F1DE6DFEE0076FAE6 = {
+			isa = PBXGroup;
+			children = (
+				E9DC188D1DE6E6AD0076FAE6 /* Source */,
+				E9DC185A1DE6DFEE0076FAE6 /* adns3080-camera-ios */,
+				E9DC186F1DE6DFEE0076FAE6 /* adns3080-camera-iosTests */,
+				E9DC187A1DE6DFEE0076FAE6 /* adns3080-camera-iosUITests */,
+				E9DC18591DE6DFEE0076FAE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9DC18591DE6DFEE0076FAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC18581DE6DFEE0076FAE6 /* adns3080-camera-ios.app */,
+				E9DC186C1DE6DFEE0076FAE6 /* adns3080-camera-iosTests.xctest */,
+				E9DC18771DE6DFEE0076FAE6 /* adns3080-camera-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DC185A1DE6DFEE0076FAE6 /* adns3080-camera-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC185B1DE6DFEE0076FAE6 /* AppDelegate.swift */,
+				E9DC185D1DE6DFEE0076FAE6 /* ViewController.swift */,
+				E9DC185F1DE6DFEE0076FAE6 /* Main.storyboard */,
+				E9DC18621DE6DFEE0076FAE6 /* Assets.xcassets */,
+				E9DC18641DE6DFEE0076FAE6 /* LaunchScreen.storyboard */,
+				E9DC18671DE6DFEE0076FAE6 /* Info.plist */,
+			);
+			path = "adns3080-camera-ios";
+			sourceTree = "<group>";
+		};
+		E9DC186F1DE6DFEE0076FAE6 /* adns3080-camera-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC18701DE6DFEE0076FAE6 /* adns3080_camera_iosTests.swift */,
+				E9DC18721DE6DFEE0076FAE6 /* Info.plist */,
+			);
+			path = "adns3080-camera-iosTests";
+			sourceTree = "<group>";
+		};
+		E9DC187A1DE6DFEE0076FAE6 /* adns3080-camera-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC187B1DE6DFEE0076FAE6 /* adns3080_camera_iosUITests.swift */,
+				E9DC187D1DE6DFEE0076FAE6 /* Info.plist */,
+			);
+			path = "adns3080-camera-iosUITests";
+			sourceTree = "<group>";
+		};
+		E9DC188D1DE6E6AD0076FAE6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC188E1DE6E6AD0076FAE6 /* SocketAckEmitter.swift */,
+				E9DC188F1DE6E6AD0076FAE6 /* SocketAckManager.swift */,
+				E9DC18901DE6E6AD0076FAE6 /* SocketAnyEvent.swift */,
+				E9DC18911DE6E6AD0076FAE6 /* SocketClientManager.swift */,
+				E9DC18921DE6E6AD0076FAE6 /* SocketEngine.swift */,
+				E9DC18931DE6E6AD0076FAE6 /* SocketEngineClient.swift */,
+				E9DC18941DE6E6AD0076FAE6 /* SocketEnginePacketType.swift */,
+				E9DC18951DE6E6AD0076FAE6 /* SocketEnginePollable.swift */,
+				E9DC18961DE6E6AD0076FAE6 /* SocketEngineSpec.swift */,
+				E9DC18971DE6E6AD0076FAE6 /* SocketEngineWebsocket.swift */,
+				E9DC18981DE6E6AD0076FAE6 /* SocketEventHandler.swift */,
+				E9DC18991DE6E6AD0076FAE6 /* SocketExtensions.swift */,
+				E9DC189A1DE6E6AD0076FAE6 /* SocketIOClient.swift */,
+				E9DC189B1DE6E6AD0076FAE6 /* SocketIOClientConfiguration.swift */,
+				E9DC189C1DE6E6AD0076FAE6 /* SocketIOClientOption.swift */,
+				E9DC189D1DE6E6AD0076FAE6 /* SocketIOClientSpec.swift */,
+				E9DC189E1DE6E6AD0076FAE6 /* SocketIOClientStatus.swift */,
+				E9DC189F1DE6E6AD0076FAE6 /* SocketLogger.swift */,
+				E9DC18A01DE6E6AD0076FAE6 /* SocketPacket.swift */,
+				E9DC18A11DE6E6AD0076FAE6 /* SocketParsable.swift */,
+				E9DC18A21DE6E6AD0076FAE6 /* SocketStringReader.swift */,
+				E9DC18A31DE6E6AD0076FAE6 /* SocketTypes.swift */,
+				E9DC18A41DE6E6AD0076FAE6 /* SSLSecurity.swift */,
+				E9DC18A51DE6E6AD0076FAE6 /* WebSocket.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9DC18571DE6DFEE0076FAE6 /* adns3080-camera-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DC18801DE6DFEE0076FAE6 /* Build configuration list for PBXNativeTarget "adns3080-camera-ios" */;
+			buildPhases = (
+				E9DC18541DE6DFEE0076FAE6 /* Sources */,
+				E9DC18551DE6DFEE0076FAE6 /* Frameworks */,
+				E9DC18561DE6DFEE0076FAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "adns3080-camera-ios";
+			productName = "adns3080-camera-ios";
+			productReference = E9DC18581DE6DFEE0076FAE6 /* adns3080-camera-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9DC186B1DE6DFEE0076FAE6 /* adns3080-camera-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DC18831DE6DFEE0076FAE6 /* Build configuration list for PBXNativeTarget "adns3080-camera-iosTests" */;
+			buildPhases = (
+				E9DC18681DE6DFEE0076FAE6 /* Sources */,
+				E9DC18691DE6DFEE0076FAE6 /* Frameworks */,
+				E9DC186A1DE6DFEE0076FAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DC186E1DE6DFEE0076FAE6 /* PBXTargetDependency */,
+			);
+			name = "adns3080-camera-iosTests";
+			productName = "adns3080-camera-iosTests";
+			productReference = E9DC186C1DE6DFEE0076FAE6 /* adns3080-camera-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9DC18761DE6DFEE0076FAE6 /* adns3080-camera-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DC18861DE6DFEE0076FAE6 /* Build configuration list for PBXNativeTarget "adns3080-camera-iosUITests" */;
+			buildPhases = (
+				E9DC18731DE6DFEE0076FAE6 /* Sources */,
+				E9DC18741DE6DFEE0076FAE6 /* Frameworks */,
+				E9DC18751DE6DFEE0076FAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DC18791DE6DFEE0076FAE6 /* PBXTargetDependency */,
+			);
+			name = "adns3080-camera-iosUITests";
+			productName = "adns3080-camera-iosUITests";
+			productReference = E9DC18771DE6DFEE0076FAE6 /* adns3080-camera-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9DC18501DE6DFEE0076FAE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Vandenabeele Thomas";
+				TargetAttributes = {
+					E9DC18571DE6DFEE0076FAE6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 55W39GMJK4;
+						ProvisioningStyle = Automatic;
+					};
+					E9DC186B1DE6DFEE0076FAE6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9DC18571DE6DFEE0076FAE6;
+					};
+					E9DC18761DE6DFEE0076FAE6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9DC18571DE6DFEE0076FAE6;
+					};
+				};
+			};
+			buildConfigurationList = E9DC18531DE6DFEE0076FAE6 /* Build configuration list for PBXProject "adns3080-camera-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9DC184F1DE6DFEE0076FAE6;
+			productRefGroup = E9DC18591DE6DFEE0076FAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DC18571DE6DFEE0076FAE6 /* adns3080-camera-ios */,
+				E9DC186B1DE6DFEE0076FAE6 /* adns3080-camera-iosTests */,
+				E9DC18761DE6DFEE0076FAE6 /* adns3080-camera-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DC18561DE6DFEE0076FAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DC18661DE6DFEE0076FAE6 /* LaunchScreen.storyboard in Resources */,
+				E9DC18631DE6DFEE0076FAE6 /* Assets.xcassets in Resources */,
+				E9DC18611DE6DFEE0076FAE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC186A1DE6DFEE0076FAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC18751DE6DFEE0076FAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DC18541DE6DFEE0076FAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DC18D01DE730A80076FAE6 /* Assets.xcassets in Sources */,
+				E9DC18B21DE6E7EC0076FAE6 /* SocketIOClient.swift in Sources */,
+				E9DC18B11DE6E7EA0076FAE6 /* SocketExtensions.swift in Sources */,
+				E9DC18AF1DE6E7E50076FAE6 /* SocketEngineWebsocket.swift in Sources */,
+				E9DC18B41DE6E7F10076FAE6 /* SocketIOClientOption.swift in Sources */,
+				E9DC18B51DE6E7F30076FAE6 /* SocketIOClientSpec.swift in Sources */,
+				E9DC18B61DE6E7F60076FAE6 /* SocketIOClientStatus.swift in Sources */,
+				E9DC18B71DE6E7F80076FAE6 /* SocketLogger.swift in Sources */,
+				E9DC18A81DE6E7D20076FAE6 /* SocketAnyEvent.swift in Sources */,
+				E9DC18BA1DE6E8010076FAE6 /* SocketStringReader.swift in Sources */,
+				E9DC18BD1DE6E8090076FAE6 /* WebSocket.swift in Sources */,
+				E9DC18B91DE6E7FF0076FAE6 /* SocketParsable.swift in Sources */,
+				E9DC18BB1DE6E8040076FAE6 /* SocketTypes.swift in Sources */,
+				E9DC18B01DE6E7E70076FAE6 /* SocketEventHandler.swift in Sources */,
+				E9DC18AB1DE6E7DA0076FAE6 /* SocketEngineClient.swift in Sources */,
+				E9DC18B81DE6E7FB0076FAE6 /* SocketPacket.swift in Sources */,
+				E9DC18A71DE6E7CF0076FAE6 /* SocketAckManager.swift in Sources */,
+				E9DC18AE1DE6E7E20076FAE6 /* SocketEngineSpec.swift in Sources */,
+				E9DC18A61DE6E7CC0076FAE6 /* SocketAckEmitter.swift in Sources */,
+				E9DC18AA1DE6E7D70076FAE6 /* SocketEngine.swift in Sources */,
+				E9DC185E1DE6DFEE0076FAE6 /* ViewController.swift in Sources */,
+				E9DC185C1DE6DFEE0076FAE6 /* AppDelegate.swift in Sources */,
+				E9DC18B31DE6E7EE0076FAE6 /* SocketIOClientConfiguration.swift in Sources */,
+				E9DC18BC1DE6E8070076FAE6 /* SSLSecurity.swift in Sources */,
+				E9DC18AD1DE6E7E00076FAE6 /* SocketEnginePollable.swift in Sources */,
+				E9DC18AC1DE6E7DD0076FAE6 /* SocketEnginePacketType.swift in Sources */,
+				E9DC18A91DE6E7D50076FAE6 /* SocketClientManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC18681DE6DFEE0076FAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DC18711DE6DFEE0076FAE6 /* adns3080_camera_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9DC18731DE6DFEE0076FAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DC187C1DE6DFEE0076FAE6 /* adns3080_camera_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9DC186E1DE6DFEE0076FAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DC18571DE6DFEE0076FAE6 /* adns3080-camera-ios */;
+			targetProxy = E9DC186D1DE6DFEE0076FAE6 /* PBXContainerItemProxy */;
+		};
+		E9DC18791DE6DFEE0076FAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9DC18571DE6DFEE0076FAE6 /* adns3080-camera-ios */;
+			targetProxy = E9DC18781DE6DFEE0076FAE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9DC185F1DE6DFEE0076FAE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DC18601DE6DFEE0076FAE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9DC18641DE6DFEE0076FAE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DC18651DE6DFEE0076FAE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9DC187E1DE6DFEE0076FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9DC187F1DE6DFEE0076FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9DC18811DE6DFEE0076FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 55W39GMJK4;
+				INFOPLIST_FILE = "adns3080-camera-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vandenabeele-Thomas.adns3080-camera-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E9DC18821DE6DFEE0076FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 55W39GMJK4;
+				INFOPLIST_FILE = "adns3080-camera-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vandenabeele-Thomas.adns3080-camera-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E9DC18841DE6DFEE0076FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "adns3080-camera-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vandenabeele-Thomas.adns3080-camera-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adns3080-camera-ios.app/adns3080-camera-ios";
+			};
+			name = Debug;
+		};
+		E9DC18851DE6DFEE0076FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "adns3080-camera-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vandenabeele-Thomas.adns3080-camera-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adns3080-camera-ios.app/adns3080-camera-ios";
+			};
+			name = Release;
+		};
+		E9DC18871DE6DFEE0076FAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "adns3080-camera-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vandenabeele-Thomas.adns3080-camera-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "adns3080-camera-ios";
+			};
+			name = Debug;
+		};
+		E9DC18881DE6DFEE0076FAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "adns3080-camera-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vandenabeele-Thomas.adns3080-camera-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "adns3080-camera-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DC18531DE6DFEE0076FAE6 /* Build configuration list for PBXProject "adns3080-camera-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DC187E1DE6DFEE0076FAE6 /* Debug */,
+				E9DC187F1DE6DFEE0076FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DC18801DE6DFEE0076FAE6 /* Build configuration list for PBXNativeTarget "adns3080-camera-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DC18811DE6DFEE0076FAE6 /* Debug */,
+				E9DC18821DE6DFEE0076FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DC18831DE6DFEE0076FAE6 /* Build configuration list for PBXNativeTarget "adns3080-camera-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DC18841DE6DFEE0076FAE6 /* Debug */,
+				E9DC18851DE6DFEE0076FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DC18861DE6DFEE0076FAE6 /* Build configuration list for PBXNativeTarget "adns3080-camera-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DC18871DE6DFEE0076FAE6 /* Debug */,
+				E9DC18881DE6DFEE0076FAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9DC18501DE6DFEE0076FAE6 /* Project object */;
+}
