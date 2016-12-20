@@ -1,10 +1,11 @@
 # ADNS 3080 sensor Project
 
-*Embedded Systems Project*
-Ling Zhang, Zhejiang University, Hangzhou, China
-Thomas Vandenabeele, Hasselt University, Diepenbeek, Belgium
+*Embedded Systems Project*<br>
+Ling Zhang, Zhejiang University, Hangzhou, China<br>
+Thomas Vandenabeele, Hasselt University, Diepenbeek, Belgium<br>
 
 **Dependencies:**
+
 	- Raspberry Pi
 	- bcm2835 library for SPI
 	- C++
